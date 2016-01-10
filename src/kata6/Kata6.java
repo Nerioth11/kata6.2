@@ -9,7 +9,7 @@ public class Kata6 {
 
     public static void main(String[] args) throws ClassNotFoundException, SQLException {
  
-        String nameFile = "C:\\Users\\usuario\\Documents\\NetBeansProjects\\kata6\\emails.txt";
+        String nameFile = "emails.txt";
         
         
         MailReader mailReader = new MailReader(nameFile);
